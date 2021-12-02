@@ -1,5 +1,5 @@
 # Welcome To Stickier Bot
-## Made By: Jordan Black, Sunil 
+## Made By: Jordan Black, Sunil Babu 
 
 This is a Discord Bot made in Javascript and C++. 
 

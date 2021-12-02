@@ -613,9 +613,8 @@ function send_answer(message, text)
 {
     const stop = Date.now()
 
-    
     let time = (stop - start)/1000
-    console.log(time + ',')
+    
 
     //Build the embed for the user who started the duel
     let embed1 = new Discord.MessageEmbed()
@@ -629,7 +628,8 @@ function send_answer(message, text)
         .setDescription(`Breadth First Search is used in order to find the connection between two actors.`)
         .setThumbnail('https://victorqi.gitbooks.io/swift-algorithm/content/Images/AnimatedExample.gif')
         .addFields(
-            { name:"Execution Time:", value: `${time} seconds`, inline: false}
+            { name:"Execution Time:", value: `${time} seconds`, inline: false},
+            { name:"Average Time:", value: `0.136 seconds`, inline: false}
         )
         .setColor(0x800080)
         .setTimestamp();
@@ -637,6 +637,9 @@ function send_answer(message, text)
     let embed3 = new Discord.MessageEmbed()
         .setTitle(`Credits`)
         .setDescription(`This program was implemented by Jordan Black and Sunil Babu.`)
+        .addFields(
+            { name:"Github:", value: `https://github.com/StickyJorden/IMDBBot`, inline: false},
+        )
         .setColor(0x800080)
         .setTimestamp();
     
