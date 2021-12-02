@@ -1,0 +1,4 @@
+.env
+commands/fun/delchanend.js
+Storage/counters.json
+commands/fun/todo.js
