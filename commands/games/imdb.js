@@ -6,17 +6,18 @@ const { MessageActionRow, MessageButton } = require('discord.js');
 const paginationEmbed = require('discordjs-button-pagination');
 
 const { Graph } = require("../../bacon/graph.js"); 
-const marvel = require("./imdb.js");
+
 const { Node } = require("../../bacon/node.js"); 
 const fs = require('fs');
-const { exit } = require('process');
+
+
 
 
 //We can call the JSON file for marvel database
-const data = JSON.parse(fs.readFileSync('../../movie.json','utf8'));
+const data = JSON.parse(fs.readFileSync('bacon/movie.json','utf8'));
 
 //We can call the JSON file for marvel database
-const path = JSON.parse(fs.readFileSync('../../start_end_points.json','utf8'));
+const path = JSON.parse(fs.readFileSync('bacon/start_end_points.json','utf8'));
 
 //Make graph object
 var graph = new Graph();
