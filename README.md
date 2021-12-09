@@ -15,6 +15,6 @@ This will give the output to the console.
 There is a Javascript front end, but the application Discord is needed to run it. 
 See images below of what the javascript front end looks like in Discord.
 
-![front end gif](https://docs.google.com/drawings/d/e/2PACX-1vRahjej-mw7BbDNw8EXFA2fEtFll6gRT5lkNte2AU_VT1rg8w4Dcjz8oL7NflI6ig-ouLfZP-e9_isX/pub?w=960&h=720)
+![front end gif](https://im7.ezgif.com/tmp/ezgif-7-0defff221ff9.gif)
 
 Thank you so much for stopping by!
