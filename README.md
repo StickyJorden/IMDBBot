@@ -1,7 +1,7 @@
 # Welcome To IMDB Bot
 ## Made By: Jordan Black, Sunil Babu 
 
-[Link to github](https://github.com/StickyJorden/IMDBBot)
+[Link to Github](https://github.com/StickyJorden/IMDBBot)
 
 This is a Discord Bot made in Javascript and C. 
 
