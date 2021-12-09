@@ -8,7 +8,7 @@ Display the path between two actors given their movies.
 Steps to run program:
 
 1. Download console.js file
-2. Run using 'node console.js" 
+2. Run using "node console.js" 
 
 This will give the output to the console. 
 
